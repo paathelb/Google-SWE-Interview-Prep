@@ -5,24 +5,27 @@
 ## Timeline
 
 ### Concepts
-Week1
+Week3
 - Primitive Types
-- Arrays
+- Arrays  
+Mid 
 - Strings
 - Linked Lists
 - Stacks and Queues
 
 Week2
 - Binary Trees
-- Heaps
+- Heaps  
+Mid
 - Searching
 - Hash Tables
 - Sorting
 
-Week3
+Week1
 - Binary Search Trees
 - Recursion
-- Dynamic Programming
+- Dynamic Programming  
+Mid
 - Greedy Algorithms and Invariants
 - Graphs
 - Parallel Computing
