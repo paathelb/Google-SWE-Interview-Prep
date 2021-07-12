@@ -58,3 +58,13 @@ not be present in the BST), and enumerate the keys in a range in sorted order.
 avoid putting mutable objects in a BST. Otherwise, when a mutable object that's in a BST is to be
 updated, always first remove it from the tree, then update it, then add it back.
 
+BST Libraries
+- Python does not come with built-in BST library
+- functionalities added by bintrees
+- insert(e) inserts new element e in the BST.
+- discard(e) removes e in the BST if present.
+- min_item()/max_item() yield the smallest and largest key-value pair in the BST.
+- min_key()/max_key() yield the smallest and largest key in the BST.
+- pop_min()/pop_max() remove the return the smallest and largest key-value pair in the BST.
+- These operations take O(logn), since they are backed by the underlying tree.
+
