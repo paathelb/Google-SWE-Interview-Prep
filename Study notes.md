@@ -68,3 +68,15 @@ BST Libraries
 - pop_min()/pop_max() remove the return the smallest and largest key-value pair in the BST.
 - These operations take O(logn), since they are backed by the underlying tree.
 
+### Recursion
+- Recursion is an approach to problem solving where the solution partially depends on solutions to smaller of instances related problems
+- More generally, searching, enumeration, divide-and-conquer, and decomposing a complex problem into a set of similar smaller instances are all scenarios where recursion may be suitable.
+- A divide-and-conquer algorithm works by repeatedly decomposing a problem into two or more smaller independent subproblems of the same kind, until it gets to instances that are simple enough to be solved directly. Merge sort and quicksort are classical examples of divide-and-conquer.
+- Divide-and-conquer is not synonymous with recursion. In divide-and-conquer, the problem is divided into two or more independent smaller problems that are of the same type as the original problem. Recursion is more general:
+  - there may be a single subproblem, e.g., binary search
+  - the subproblems may not be independent, e.g., dynamic programming
+  - they may not be of the same type as the original, e.g., regular expression matching.
+- Sometimes, in order to improve runtime and occasionally reduce space complexity, a divide-and-conquer algorithm is implemented using iteration instead of recursion.
+
+
+
