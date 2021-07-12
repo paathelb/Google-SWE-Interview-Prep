@@ -78,5 +78,26 @@ BST Libraries
   - they may not be of the same type as the original, e.g., regular expression matching.
 - Sometimes, in order to improve runtime and occasionally reduce space complexity, a divide-and-conquer algorithm is implemented using iteration instead of recursion.
 
+Example: Euclidean algorithm for calculating the greatest common divisor (GCD) of two numbers
+
+<img src="https://user-images.githubusercontent.com/63312847/125231230-ef5e9d00-e30c-11eb-8061-6b4bdea0187c.jpg" width="500" >
+
+- time complexity is O(log max(x,y)) or O(n), where n is the number of bits needed to represent the inputs.
+- space complexity is also O(n), which is the maximum depth of the function call stack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
